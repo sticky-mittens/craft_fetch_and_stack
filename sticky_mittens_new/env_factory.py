@@ -40,7 +40,7 @@ class EnvironmentFactory(object):
 
     # Load the tasks with sub-steps (== hints)
     with open(hints_path) as hints_f:
-      self.hints = yaml.load(hints_f)
+      self.hints = yaml.full_load(hints_f)
 
     # Setup all possible tasks
     self._init_tasks()

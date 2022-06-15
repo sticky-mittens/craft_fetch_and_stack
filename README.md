@@ -14,6 +14,12 @@ cd sticky_mittens_bottom_up
 bash run_expts.sh
 ```
 
+Videos
+```
+cd sticky_mittens_new
+bash viz.sh
+```
+
 ## Fetch and Stack
 Ours
 ```

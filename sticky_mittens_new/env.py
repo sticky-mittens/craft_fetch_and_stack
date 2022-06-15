@@ -153,7 +153,7 @@ class CraftLab(object):
       tasks = {}
 
       with open(hints_path) as hints_f:
-          hints = yaml.load(hints_f)
+          hints = yaml.full_load(hints_f)
           for hint_key, hint in hints.items():
               # hint_key: make[plank], hint/steps: get_wood, makeAtToolshed
               goal = util.parse_fexp(hint_key)

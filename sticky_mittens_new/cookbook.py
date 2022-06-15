@@ -9,7 +9,7 @@ class Cookbook(object):
 
   def __init__(self, recipes_path):
     with open(recipes_path) as recipes_f:
-      recipes = yaml.load(recipes_f)
+      recipes = yaml.full_load(recipes_f)
     self.index = Index()
     self.environment = set(self.index.index(e) for e in recipes["environment"])
     self.primitives = set(self.index.index(p) for p in recipes["primitives"])
