@@ -1,0 +1,3 @@
+numpy
+gym
+mujoco_py>=1.50imageio

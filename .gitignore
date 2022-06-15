@@ -1,0 +1,11 @@
+psketch
+# fetch_logs_saved*
+# sticky_mittens_new/logs*
+# sticky_mittens_bottom_up/logs*
+# sticky_mittens_new/models*
+# sticky_mittens_bottom_up/models*
+#fetch*
+#*.sh
+# fetch_sticky_mittens_step/networks*
+# fetch_sticky_mittens_step_4_blocks/networks*
+*/__pycache__*

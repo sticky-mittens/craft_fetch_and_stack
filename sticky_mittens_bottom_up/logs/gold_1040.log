@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "play_recursive_simple.py", line 37, in <module>
+    os.mkdir(f)
+FileExistsError: [Errno 17] File exists: 'models'

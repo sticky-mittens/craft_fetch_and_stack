@@ -1,0 +1,8 @@
+{
+ "DOWN": 0,
+ "UP": 1,
+ "LEFT": 2,
+ "RIGHT": 3,
+ "USE": 4,
+ "give_axe": 5
+}
